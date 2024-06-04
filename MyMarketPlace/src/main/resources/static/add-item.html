@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="new-itemC.css"/>
+    <title>MyMarketPlace</title>
+    <script src="new-itemJ.js"></script>
+</head>
+<body style="background-color: #505bc7">
+<fieldset class="toptitle2">
+    <label class="title">eMarketplace</label>
+</fieldset>
+<div class="mainverticallayout">
+    <label class="title" style="color: black">Add new item</label>
+    <div class="horizontallayout" style="margin-top: 50px">
+        <div class="verticallayout">
+            <label class="texts">
+                Title
+            </label>
+            <input type="text" id="titlename" name="name" style="width: 150px">
+        </div>
+        <div class="verticallayout" style="margin-left: 100px">
+            <label class="texts">
+                Price
+            </label>
+            <input type="text" id="price" style="width: 150px">
+        </div>
+    </div>
+    <div class="horizontallayout" style="margin-top: 20px; align-items: start" >
+        <div class="verticallayout" style="padding-right: 250px">
+            <label class="texts">
+                Photo
+            </label>
+            <input type="file" id="fileinput" name="photo">
+        </div>
+    </div>
+    <div class="horizontallayout" style="margin-top: 20px; align-items: start" >
+        <div class="verticallayout">
+            <label class="texts">
+                Description
+            </label>
+            <textarea id="desc" style=" width: 510px;height: 100px;resize: none;"></textarea>
+        </div>
+    </div>
+    <button type="button" onclick="submit()" class="texts" style="margin-top: 20px; color: white; background-color: #f2f2ff; border-radius: 5px">Submit</button>
+    <label id="warning" style="color: red"></label>
+</div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="indexC.css"/>
+    <title>MyMarketPlace</title>
+    <script src="indexJ.js"></script>
+</head>
+<body style="background-color:  #505bc7">
+<fieldset class="toptitle">
+    <div class="horizontallayout">
+        <label class="title">MyMarketPlace</label>
+        <button id="newbutton" class="newbutton" onclick="addnewitem()">New</button>
+    </div>
+</fieldset>
+<div class="verticallayout">
+    <label style="margin-bottom: 20px" id="total items">none</label>
+    <div class="grid-container">
+        <div class="grid-item">
+            <div class="itemverticallayout">
+                <img id="img1">
+                <label></label>
+                <label class="forprice"></label>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="itemverticallayout">
+                <img id="img2">
+                <label></label>
+                <label class="forprice"></label>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="itemverticallayout">
+                <img id="img3">
+                <label></label>
+                <label class="forprice"></label>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="itemverticallayout">
+                <img id="img4">
+                <label></label>
+                <label class="forprice"></label>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="itemverticallayout">
+                <img id="img5">
+                <label></label>
+                <label class="forprice"></label>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="itemverticallayout">
+                <img id="img6">
+                <label></label>
+                <label class="forprice"></label>
+            </div>
+        </div>
+    </div>
+    <div class="pagehorizontallayout">
+        <button id="backbutton" class="pagebutt" onclick="backpage()"><</button>
+        <label id="pagenumber" class="forprice" style="margin-right: 10px">1</label>
+        <button id="nextbutton" class="pagebutt" onclick="nextpage()">></button>
+    </div>
+</div>
+</body>
+</html>

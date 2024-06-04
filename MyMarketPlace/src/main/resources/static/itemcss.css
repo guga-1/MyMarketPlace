@@ -1,0 +1,63 @@
+.toptitle2{
+    background-color: #e2e2fe;
+    border-color: #e2e2fe;
+    border-width: 5px;
+    border-style: solid;
+}
+.title{
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    color: white;
+    font-size: 35px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-align: start;
+    display: block;
+}
+.texts{
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    color: #000000;
+    font-size: 18px;
+    text-align: start;
+    display: block;
+}
+.mainverticallayout{
+    display:flex;
+    margin-top: 55px;
+    margin-right: 520px;
+    margin-left: 520px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.verticallayout{
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+.horizontallayout{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;
+}
+.horizontallayoutfortime{
+    display:flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+}
+.forimage{
+    width:100px;
+    height: 100px;
+}
+.forprice{
+    font-size: 25px;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    color: #e2e2fe;
+    text-align: right;
+}

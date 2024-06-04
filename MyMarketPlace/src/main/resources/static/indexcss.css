@@ -1,0 +1,111 @@
+.toptitle{
+    background-color: #e2e2fe;
+    border-color: #e2e2fe;
+    border-width: 5px;
+    border-style: solid;
+}
+.title{
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: start;
+    display: block;
+}
+.newbutton{
+    width: 140px;
+    border-radius: 10px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    color: #0000ff;
+    display: block;
+}
+.horizontallayout{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.pagehorizontallayout{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.verticallayout{
+    display:flex;
+    margin-top: 100px;
+    margin-right: 200px;
+    margin-left: 200px;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.itemverticallayout{
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+.grid-container {
+    height: 600px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 50px;
+
+}
+.itemverticallayout img {
+    width: 455px;
+    height: 200px;
+    object-fit: cover;
+}
+.itemverticallayout label {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.itemverticallayout label {
+    font-size: 14px;
+    max-width: 100%;
+    transition: font-size 0.5s;
+}
+
+.itemverticallayout:hover label {
+    font-size: 18px;
+}
+.grid-item {
+    padding: 5px;
+    background-color: white;
+}
+.forprice{
+    font-size: 25px;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    color: #0000ff;
+}
+.pagebutt{
+    margin-right: 10px; width: 50px; background-color: #0000ff; border-radius: 5px;
+}
+.hidebutt{
+    display: none;
+}
+.imagediv{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
